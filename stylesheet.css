@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.header-container{
+    background-color:#1f2937;
+    display:flex;
+    justify-content:center;
+    
+
+
+}
+.header{
+  
+    width:100%;
+    height:60px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+.header-logo{
+    display:flex;
+    justify-content:flex-end;
+    width:230px;
+  
+    color:#f9faf8;
+    font-weight:bolder; 
+    font-size:24px;
+    
+    
+}
+
+.header-link{
+  
+    margin-left:390px;
+    width:500px;
+    display:flex;
+    flex-flow:row no-wrap;
+    justify-content:flex-end;
+    color:#E5E7EB;
+    font-size:18px;
+   
+
+
+}
+.header-link-two , .header-link-three{
+    margin-left:25px;
+}
+
+.main-section-container{
+    background-color:#1f2937;
+    display:flex;
+    justify-content:center;
+    height:470px;
+    
+}
+.main-section{
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+    padding-bottom:20px;
+
+}
+.text-section{
+    margin-left:60px;
+}
+.title{
+   
+    font-size: 48px;
+    font-weight:800;
+    color:#f9faf8;
+    width:350px;
+    
+}
+.desc{
+    
+    font-size: 20px;
+   
+    color:#E5E7EB;
+    width:450px;
+}
+.signup{
+    background-color:#3882f6;
+    color:#E5E7EB;
+    font-weight:bold;
+    font-size:18px;
+    width:130px;
+    height:38px;
+    border:0px;
+    border-radius:8px;
+    margin-top:10px;
+
+}
+
+.image-frame{
+    margin-left:45px;
+}
+.image-frame img{
+    width:510px;
+    height:234px;
+
+}
+
+.gallery-container{
+ 
+    background-color:white;
+    display:flex;
+    justify-content: center;;
+    height:430px;
+}
+
+.gallery{
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    justify-content:space-around;
+}
+.gallery-title{
+
+    font-size:36px;
+    font-weight:1000;
+    color:#1F2937;
+    margin-left:55px;
+    padding-top:19px;
+}
+
+.image-section{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+}
+.gallery-frame .image-frame{
+    border:3px solid #3882f6;
+    border-radius:10px;
+    
+}
+
+.gallery-frame .image-frame img{
+    width: 180px;
+    height:190px;
+}
+
+.gallery-frame{
+
+    display:flex;
+    flex-flow:column ;
+    margin-left:5px;
+
+
+}
+.image-desc{
+    margin-left:48px;
+
+    text-align:center;
+    width:180px;
+    font-size:18px;
+    color:#1F2937;
+}
+.image-desc-title{
+    font-size:20px;
+    color:black;
+}
+
+.quote-container{
+
+    margin-top:100px;
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:400px;
+}
+.quote{
+    padding-top:20px;
+    padding-left:340px;
+    padding-right:260px;
+}
+.quote-text{
+    font-size:36px;
+    font-weight: 100;
+    font-style:italic;
+    color:#1F2937;
+
+}
+
+.quote-author{
+    display:flex;
+    color:#1f2937;
+    font-weight: 900;
+    font-size:20px;
+    justify-content: flex-end;
+}
+
+.call-to-action-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:350px;
+    padding-left:50px;
+    
+}
+.action-block{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-around;
+    align-items:center;
+    width:75%;
+    height:42%;
+    border-radius:10px;
+    background-color:#3882f6;
+
+}
+
+.calling-title{
+    color: #f9f9f9;;
+    font-weight: 900;
+    font-size:24px;
+}
+
+.calling-desc{
+    color:#E5E7EB;
+}
+
+.action{
+    color:#f9f9f9;
+    background-color:#3882f6;
+    border: 2px #f9f9f9 solid;
+    border-radius:10px;
+    font-size:18px;
+    width:130px;
+    height:36px;
+    font-weight:700;
+
+}
+.footer-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #1f2937;
+    height:100px;
+    color:#E5E7EB;
+    font-size:18px;
+    padding-left:95px;
+
+}
+.footer{
+
+}
